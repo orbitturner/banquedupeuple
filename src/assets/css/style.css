@@ -1,0 +1,364 @@
+/*
++======================={PROJECT - PRESENTATION}======================+
+|                                                                     |
+|Project Name    : THE DTS BANK                                       |
+|Categorie       : Dynamic Website                                    |
+|FrameWorks      : MDBootstrap                                        |
+|Author          : OrbitTurner                                        |
+|Official Name   : Mohamed GUEYE                                      |
+|Version         : v.1.2                                              |
+|Created         : 03-Mars-2019                                       |
+|Last update     : 06-Avril-2019                                      |
+|Partie          : MAIN INDEX                                         | 
+|LANGAGE UTILISE : ANGLAIS - FRANCAIS                                 |
++=====================================================================+
+*/
+/*===========================>{ W E B   S T Y L E S }<===========================*/
+/*================|SCROLLBAR|================*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+  
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5; }
+  
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#5ee7df), to(#b490ca));
+  background-image: -webkit-linear-gradient(bottom, #5ee7df 0%, #b490ca 100%);
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%); }
+
+/*================|END OF SCROLLBAR|================*/
+ 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+@font-face {
+	font-family: 'Azonix Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Azonix Regular'), url('Azonix.woff') format('woff');
+}
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+#topbar {
+  /* background: #f96e5b; */
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  width: auto;
+}
+
+section{
+  margin: 2%;
+  padding: 5px;
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+
+#topbar ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#topbar ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#topbar ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#topbar.align-right ul li {
+  float: right;
+}
+#topbar.align-center ul {
+  text-align: center;
+}
+#topbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#topbar ul li a:hover {
+  color: #333333;
+}
+#topbar ul li a:hover:before {
+  width: 100%;
+}
+/* afficher de petit carré */
+/* #topbar ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+} */
+#topbar ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#topbar ul li.last > a:after,
+#topbar ul li:last-child > a:after {
+  display: none;
+}
+#topbar ul li.active a {
+  color: #333333;
+}
+#topbar ul li.active a:before {
+  width: 100%;
+}
+#topbar.align-right li.last > a:after,
+#topbar.align-right li:last-child > a:after {
+  display: block;
+}
+#topbar.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #topbar ul li {
+    float: none;
+    display: block;
+  }
+  #topbar ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #topbar ul li.last > a,
+  #topbar ul li:last-child > a {
+    border: 0;
+  }
+  #topbar ul li a:after {
+    display: none;
+  }
+  #topbar ul li a:before {
+    display: none;
+  }
+}
+/*----------N A V B A R-------------------*/
+/***** DROPDOWN *****/
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+#usercallname{
+  font-family: 'Azonix';
+  padding-right: 3px;
+  padding-left: 3px;
+  color: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+#deconnex:hover{
+  color: #ffffff;
+  background: #9053c7;
+  /* background: rgba(144,83,199, 0.2); */
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  transition: all 0.8s ease-in-out;
+}
+/* ******************************* */
+/*--------------------------T A B L E  D A T A---------------------------------*/
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+.dataTables_filter {
+  position: relative;
+  float: right;
+}
+
+
+/*--------------------------E N D  T A B L E  D A T A---------------------------------*/
+
+.select-wrapper+label {
+  position: absolute;
+  top: 2.125rem;
+  -webkit-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+  transition: .2s ease-out;
+  color: #757575;
+  font-weight: 300
+}
+
+.select-wrapper+label.active {
+  -webkit-transform: translateY(-14px);
+  -ms-transform: translateY(-14px);
+  transform: translateY(-14px);
+  font-size: .8rem;
+  top: 1.5rem;
+  left: 15px;
+}
+
+.select-wrapper+label.active-check {
+  color: #4285f4;
+}
+
+.select-wrapper+label.mdb-main-label {
+  z-index: 1;
+}
+
+.select-wrapper+label.disabled {
+  color: rgba(0,0,0,.3);
+}
+/* ===================================================================== */
+.view {
+  height: 100%; }
+  
+  /* Full Page Carousel itself*/
+  .carousel {
+    height: 100%; }
+    .carousel .carousel-inner {
+      height: 100%; }
+      .carousel .carousel-inner .carousel-item,
+      .carousel .carousel-inner .active {
+        height: 100%; }
+/* ===================================================================== */
+.form-dark .font-small {
+  font-size: 0.8rem; }
+  
+  .form-dark [type="radio"] + label,
+  .form-dark [type="checkbox"] + label {
+  font-size: 0.8rem; }
+  
+  .form-dark [type="checkbox"] + label:before {
+  top: 2px;
+  width: 15px;
+  height: 15px; }
+  
+  .form-dark .md-form label {
+  color: #fff; }
+  
+  .form-dark input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #00C851;
+  -webkit-box-shadow: 0 1px 0 0 #00C851;
+  box-shadow: 0 1px 0 0 #00C851; }
+  
+  .form-dark input[type=text]:focus:not([readonly]) + label {
+  color: #fff; }
+  
+  .form-dark input[type=password]:focus:not([readonly]) {
+  border-bottom: 1px solid #00C851;
+  -webkit-box-shadow: 0 1px 0 0 #00C851;
+  box-shadow: 0 1px 0 0 #00C851; }
+  
+  .form-dark input[type=password]:focus:not([readonly]) + label {
+  color: #fff; }
+  
+  .form-dark input[type="checkbox"] + label:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  z-index: 0;
+  border: 1.5px solid #fff;
+  border-radius: 1px;
+  margin-top: 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  
+  .form-dark input[type="checkbox"]:checked + label:before {
+  top: -4px;
+  left: -3px;
+  width: 12px;
+  height: 22px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent #00c851 #00c851 transparent;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%; }
+/* ===================================================================== */
+.chip.chip-md {
+  height: 42px;
+  line-height: 42px;
+  border-radius: 21px;
+  }
+  .chip.chip-md img {
+  height: 42px;
+  width: 42px;
+  }
+  
+  .chip.chip-lg {
+  height: 52px;
+  line-height: 52px;
+  border-radius: 26px;
+  }
+  .chip.chip-lg img {
+  height: 52px;
+  width: 52px;
+  }
+/* ===================================================================== */

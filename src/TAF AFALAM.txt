@@ -1,0 +1,4 @@
+- Valider l'Operation et l'ajouter dans la base de data
+- Effectuer les types d'Operation
+- Le compte doit avoir au minimum 500 francs
+- CHOISIR dans goper le type l'envoyer dans une page puis afficher un form en fonction
