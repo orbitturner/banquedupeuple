@@ -3,10 +3,10 @@
 # 🤔 What is it ? / What's the point? 🤔
 « LA BANQUE DU PEUPLE » is an online banking management platform. It is a class project proposed by the Professor for the LP-GL class at ISI during the year 2019/2020 and used to improve knowledge of TW and DBMS.
 
-Developed by Mohamed GUEYE (OrbitTurner)
+Developed by Mohamed GUEYE (**OrbitTurner**)
 
 
-▂▂▂ "BANK OF THE PEOPLE" It is: ▂▂▂
+**▂▂▂ "BANK OF THE PEOPLE" It is: ▂▂▂**
 
 – A New Way to Manage Accounts:
 With "LA BANQUE DU PEUPLE" the management of your clients' accounts is easy and very ergonomic and dynamic. Find, Block, and Transact on Accounts Like Drinking Water.
@@ -36,17 +36,20 @@ The project uses the 🔹MDB - Bootstrap Framework based on Bootstrap 4.1.1 whic
 # Additional Information ℹ
 You are probably wondering how this platform was designed? What methods, technologies and languages are used? So "BANQUE DU PEUPLE" is a very compact project.
 
-✔ 25 JS / JQUERY FUNCTIONS
+✔ **25 JS / JQUERY FUNCTIONS
     
     In order to manage the controls and the dynamic data transfer and the loading on single page, it was necessary to use a lot of JS (AJAX, JQUERY) but all while using the least possible code.
 
  
-✔ 01 FrameWork : BOOTSTRAP (Mixed with Material Design)
+✔ **01 FrameWork : BOOTSTRAP (Mixed with Material Design)
     
     Being a very big fan of Bootstrap I did not prevent myself from peeling it thoroughly in this project by mixing it with Material Design. The result is really very satisfactory.
 
  
-✔ 00 TEMPLATES & PHP MANAGEMENT (MVC)
+✔ **00 TEMPLATES & PHP MANAGEMENT (MVC)
     
     All Pages as well as the design were coded by the same single person and without outside help.
-    The whole project is managed by PHP and based on the Method [MODEL - VIEW - CONTROLLER].
+    The whole project is managed by PHP and based on the Method [MODEL - VIEW - CONTROLLER].
+
+# ___⬇ DOWNLOAD INFORMATION 💾___
+**The database schema and entries is included as "banque.sql" in the "databaseExtract" folder😉. Just extract it after creating a "banque" database.**
