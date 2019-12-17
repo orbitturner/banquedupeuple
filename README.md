@@ -1,6 +1,9 @@
 # banquedupeuple
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/orbitturner/banquedupeuple/)
 
+# ⬇ ___DOWNLOAD INFORMATION___ 💾
+> **The database schema and entries is included as "banque.sql" in the "databaseExtract" folder😉. Just extract it after creating a "banque" database.**
+
 ![Image of BDP](https://github.com/orbitturner/banquedupeuple/blob/master/src/img/logo.png?raw=true)
 
 # 🤔 What is it ? / What's the point? 🤔
@@ -54,8 +57,6 @@ You are probably wondering how this platform was designed? What methods, technol
     All Pages as well as the design were coded by the same single person and without outside help.
     The whole project is managed by PHP and based on the Method [MODEL - VIEW - CONTROLLER].
 
-# ⬇ ___DOWNLOAD INFORMATION___ 💾
-> **The database schema and entries is included as "banque.sql" in the "databaseExtract" folder😉. Just extract it after creating a "banque" database.**
 
 # ⛔ Known / Learned / Managed Error Pages from this Project ⚠
 Error Number | Error Description
