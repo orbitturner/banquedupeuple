@@ -17,7 +17,7 @@ function getOperationList(){
     <div class="view view-cascade gradient-card-header secondary-color-dark blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
 
         <div>
-            <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2" data-toggle="modal" data-target="#modalLRForm" onclick="location.href = 'mainindex.php?page=newOperation';">
+            <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2" data-toggle="modal" data-target="#modalLRForm" onclick="location.href = 'newoperation';">
                 <i class="fas fa-file-invoice-dollar"></i> Nouvelle Opération
             </button>
             <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">

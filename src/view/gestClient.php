@@ -19,7 +19,7 @@ $lesComptes = $db->query($req)->fetchAll(PDO::FETCH_ASSOC);
     <div class="view view-cascade gradient-card-header young-passion-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
 
         <div>
-            <button onclick="location.href = 'mainindex.php?page=newAccount';" type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+            <button onclick="location.href = 'newcompte';" type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
                 <i class="fas fa-user-plus"></i> Nouveau Client
             </button>
             <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
