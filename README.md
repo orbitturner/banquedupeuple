@@ -1,4 +1,7 @@
 # banquedupeuple
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/orbitturner/banquedupeuple/)
+
+![Image of BDP](https://github.com/orbitturner/banquedupeuple/blob/master/src/img/logo.png?raw=true)
 
 # 🤔 What is it ? / What's the point? 🤔
 « LA BANQUE DU PEUPLE » is an online banking management platform. It is a class project proposed by the Professor for the LP-GL class at ISI during the year 2019/2020 and used to improve knowledge of TW and DBMS.
@@ -51,5 +54,17 @@ You are probably wondering how this platform was designed? What methods, technol
     All Pages as well as the design were coded by the same single person and without outside help.
     The whole project is managed by PHP and based on the Method [MODEL - VIEW - CONTROLLER].
 
-# ___⬇ DOWNLOAD INFORMATION 💾___
-**The database schema and entries is included as "banque.sql" in the "databaseExtract" folder😉. Just extract it after creating a "banque" database.**
+# ⬇ ___DOWNLOAD INFORMATION___ 💾
+> **The database schema and entries is included as "banque.sql" in the "databaseExtract" folder😉. Just extract it after creating a "banque" database.**
+
+# ⛔ Known / Learned / Managed Error Pages from this Project ⚠
+Error Number | Error Description
+------------ | -------------
+200 | Succès de la requête 
+301 & 302 | redirection, respectivement permanente et temporaire
+401 | utilisateur non authentifié 
+403 | Accès Refusé / Forbidden
+404 | Page Non Trouvée / Not Found
+504 | le serveur n'a pas répondu
+505 & 503 | Erreur Serveur / Internal Server Error
+
