@@ -1,11 +1,11 @@
 # banquedupeuple
 
-A quoi ça sert?
+# 🤔 Qu'est-ce que c'est ? / A quoi ça sert? 🤔
 « LA BANQUE DU PEUPLE » est une plateforme Gestion d’une Banque en ligne. Il s’agit d’un projet de classe servant à parfaire les connaissance en TW et en SGBD.
 
 Il est développé et géré par une seule personne.
 
-▂▂▂THE DTS BANK C’est: ▂▂▂
+▂▂▂BANQUE DU PEUPLE C’est: ▂▂▂
 
 – Une Nouvelle Maniére de Gérer des Comptes:
 Avec "LA BANQUE DU PEUPLE" la gestion des comptes de vos clients est facile et très ergonomique et dynamique. Rechercher, Bloquer et effectuer des opérations sur les comptes comme si vous buviez de l’eau.
