@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🤔 Qu'est-ce que c'est ? / A quoi ça sert? 🤔
 « LA BANQUE DU PEUPLE » est une plateforme Gestion d’une Banque en ligne. Il s’agit d’un projet de classe servant à parfaire les connaissance en TW et en SGBD.
 
@@ -16,6 +17,9 @@ Il est développé et géré par une seule personne.
 
 ![Image of BDP](https://raw.githubusercontent.com/orbitturner/itagenthelp/master/ECO-IT-DESK-HELPER.ico)
 >>>>>>> bd6073faa3b440c6a61224b7eb3760c4abd74654
+=======
+![Image of BDP](https://github.com/orbitturner/banquedupeuple/blob/master/src/img/logo.png?raw=true)
+>>>>>>> parent of 223ed69... Update README.md
 
 # 🤔 What is it ? / What's the point? 🤔
 "IT AGENT HELPER" est un projet développé en C pour permettre à des agents d'un service IT d'avoir des informations essentiels rapidement sur leur collègues afin d'assurer une fluidité de service. Il à était développé lors d'un stage au sein d'Ecobank.
