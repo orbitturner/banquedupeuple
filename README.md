@@ -1,9 +1,13 @@
 # banquedupeuple
 
+<<<<<<< HEAD
 # 🤔 Qu'est-ce que c'est ? / A quoi ça sert? 🤔
 « LA BANQUE DU PEUPLE » est une plateforme Gestion d’une Banque en ligne. Il s’agit d’un projet de classe servant à parfaire les connaissance en TW et en SGBD.
 
 Il est développé et géré par une seule personne.
+=======
+![Image of BDP](https://github.com/orbitturner/banquedupeuple/blob/master/src/img/logo.png?raw=true)
+>>>>>>> parent of 223ed69... Update README.md
 
 ▂▂▂BANQUE DU PEUPLE C’est: ▂▂▂
 
@@ -49,5 +53,25 @@ Vous vous demandez surement comment cette plateforme à était conçu? Quelles s
  
 ✔ 00 TEMPLATES & GESTION PHP (MCV)
     
+<<<<<<< HEAD
     Toutes les Pages ainsi que le design ont était codées par la même et unique personne et sans l’aide d’inspirations extérieur.
     L’ensemble du projet est gérer par PHP et basé sur la Méthode [MODEL – CONTROLLER – VIEW].
+=======
+    All Pages as well as the design were coded by the same single person and without outside help.
+    The whole project is managed by PHP and based on the Method [MODEL - VIEW - CONTROLLER].
+
+# ⬇ ___DOWNLOAD INFORMATION___ 💾
+> **The database schema and entries is included as "banque.sql" in the "databaseExtract" folder😉. Just extract it after creating a "banque" database.**
+
+# ⛔ Known / Learned / Managed Error Pages from this Project ⚠
+Error Number | Error Description
+------------ | -------------
+200 | Succès de la requête 
+301 & 302 | redirection, respectivement permanente et temporaire
+401 | utilisateur non authentifié 
+403 | Accès Refusé / Forbidden
+404 | Page Non Trouvée / Not Found
+504 | le serveur n'a pas répondu
+505 & 503 | Erreur Serveur / Internal Server Error
+
+>>>>>>> parent of 223ed69... Update README.md
