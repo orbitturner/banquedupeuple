@@ -1,5 +1,7 @@
 # banquedupeuple
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/orbitturner/banquedupeuple/)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # 🤔 Qu'est-ce que c'est ? / A quoi ça sert? 🤔
 « LA BANQUE DU PEUPLE » est une plateforme Gestion d’une Banque en ligne. Il s’agit d’un projet de classe servant à parfaire les connaissance en TW et en SGBD.
@@ -8,25 +10,23 @@ Il est développé et géré par une seule personne.
 =======
 ![Image of BDP](https://github.com/orbitturner/banquedupeuple/blob/master/src/img/logo.png?raw=true)
 >>>>>>> parent of 223ed69... Update README.md
+=======
+# ⬇ ___DOWNLOAD INFORMATION___ 💾
+> **The database schema and entries is included as "banque.sql" in the "databaseExtract" folder😉. Just extract it after creating a "banque" database.**
 
-▂▂▂BANQUE DU PEUPLE C’est: ▂▂▂
+![Image of BDP](https://raw.githubusercontent.com/orbitturner/itagenthelp/master/ECO-IT-DESK-HELPER.ico)
+>>>>>>> bd6073faa3b440c6a61224b7eb3760c4abd74654
 
-– Une Nouvelle Maniére de Gérer des Comptes:
-Avec "LA BANQUE DU PEUPLE" la gestion des comptes de vos clients est facile et très ergonomique et dynamique. Rechercher, Bloquer et effectuer des opérations sur les comptes comme si vous buviez de l’eau.
+# 🤔 What is it ? / What's the point? 🤔
+"IT AGENT HELPER" est un projet développé en C pour permettre à des agents d'un service IT d'avoir des informations essentiels rapidement sur leur collègues afin d'assurer une fluidité de service. Il à était développé lors d'un stage au sein d'Ecobank.
 
-– Tout sur le Client:
-Avec notre interface de gestion de client très complète, vous pourrez en savoir plus sur l’état des comptes de vos clients, sur les infos les concernant, sur leurs opérations mais aussi leur ajouter de nouvelles opérations directement depuis l’interface.
+Developed by Mohamed GUEYE (**OrbitTurner**)
 
-– Un Contrôle Total sur les Opérations:
-En dehors de pouvoir explorer et éplucher toutes les opérations et leurs infos, vous pourrez les supprimer, filtrer et bien plus Encore! Créer en de nouvelles et Supprimer en autant que vous voudrez!
+💻 Initial Project Name : 🔰 ECO-IT-DESK-HELPER 🔰
 
-Il s'agit d'un projet de classe proposé par le Professeur pour la classe de LP-GL à ISI durant l'année 2019/2020 et servant à parfaire les connaissance en TW et en SGBD.
-
-Développé par Mohamed GUEYE(OrbitTurner)
-
-Nom de Projet: 🔰 banquedupeuple 🔰
 
 # _______________ | ❓ MORE INFOS 📚 | ______________
+<<<<<<< HEAD
 # Framework ⚙
 Le projet utilise le Framework 🔹MDB – Bootstrap basé sur Bootstrap 4.1.1  ce qui lui permet d’être totalement responsive et d’avoir certaines fonctionnalité moderne qu’on peut retrouver dans la plupart des sites actuels.
 
@@ -75,3 +75,15 @@ Error Number | Error Description
 505 & 503 | Erreur Serveur / Internal Server Error
 
 >>>>>>> parent of 223ed69... Update README.md
+=======
+# MODULES ⚙
+Le projet comporte 4 modules principales qui sont : 
+- Le Login
+- Add Agent
+- Edit Agent
+- List Agent
+- MISC
+______________________________________________________
+**__Orbit Turner__**
+![Image of IAH](https://raw.githubusercontent.com/orbitturner/itagenthelp/master/orbitturner.ico)
+>>>>>>> bd6073faa3b440c6a61224b7eb3760c4abd74654
