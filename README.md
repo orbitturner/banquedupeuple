@@ -25,7 +25,7 @@ Besides being able to explore and peel all the operations and their info, you ca
 
 # 🎬 VISUALS / IMAGES / VIDEOS 📺
  For the visuals on the project please go to the folowing link in my personal website :
- http://orbitturner.yj.fr/portfolio/the-dts-bank/
+ http://orbitturner.com/portfolio/the-dts-bank/
  
 
 # _______________ | ❓ MORE INFOS 📚 | ______________
